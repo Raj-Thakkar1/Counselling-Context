@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Context Summary for Counselling</title>
+  <meta name="description" content="Private document share for counselling context." />
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #5b677a;
+      --border: #e5e7eb;
+      --accent: #2f5f8f;
+      --accent-soft: rgba(47, 95, 143, 0.12);
+      --shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
+      --radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      line-height: 1.55;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 28px 16px 48px;
+    }
+
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px 20px;
+    }
+
+    header {
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.55rem;
+      font-weight: 650;
+      letter-spacing: 0.2px;
+    }
+
+    .subtitle {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .section {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+      font-weight: 650;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 10px 0 0;
+    }
+
+    .doc-list {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .doc-item {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 12px;
+      background: #fff;
+    }
+
+    .doc-name {
+      font-weight: 600;
+      letter-spacing: 0.15px;
+      font-size: 0.98rem;
+      overflow-wrap: anywhere;
+    }
+
+    .doc-meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 2px;
+    }
+
+    .doc-left {
+      min-width: 0;
+      padding-right: 8px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 9px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.92rem;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      text-decoration: none;
+      background: rgba(47, 95, 143, 0.18);
+    }
+
+    .btn.secondary {
+      background: #fff;
+      color: var(--accent);
+    }
+
+    .btn.secondary:hover {
+      background: #f8fafc;
+    }
+
+    .link-row {
+      margin-top: 10px;
+      padding: 12px 12px;
+      border: 1px dashed var(--border);
+      border-radius: 12px;
+      background: #fff;
+    }
+
+    .link-row a {
+      word-break: break-word;
+    }
+
+    footer {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      .doc-item {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .actions {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="panel">
+      <header>
+        <h1>Personal Context Summary for Counselling</h1>
+        <p class="subtitle">Shared for understanding and guidance</p>
+      </header>
+
+      <section class="section" aria-label="Intro Note">
+        <h2>Intro note</h2>
+        <p>
+          These materials were prepared to help organize my thoughts and share context clearly.<br />
+          They are shared for understanding and guidance, not as an accusation.<br />
+          If preferred, I can explain the context verbally instead of relying on written material.
+        </p>
+      </section>
+
+      <section class="section" aria-label="Documents">
+        <h2>Documents</h2>
+        <ul class="doc-list">
+          <li class="doc-item">
+            <div class="doc-left">
+              <div class="doc-name">Daily Records of Recent Records</div>
+              <div class="doc-meta">Links</div>
+            </div>
+            <div class="actions">
+              <a class="btn"
+                href="https://1drv.ms/o/c/68e91d85fc7e2907/IgAyYbWE6I2oS7auzYlM8HHPASDVBE1oErn0uIgHsyR0CeQ?e=D22VZ4"
+                target="_blank" rel="noreferrer">Open Link</a>
+            </div>
+          </li>
+          <li class="doc-item">
+            <div class="doc-left">
+              <div class="doc-name">Counselling Summary</div>
+              <div class="doc-meta">Redirect</div>
+            </div>
+            <div class="actions">
+              <a class="btn" href="counselling-document.html" target="_blank" rel="noreferrer">View Page</a>
+            </div>
+          </li>
+        </ul>
+        <p class="note">You can add or remove document rows as needed. No document descriptions are included.</p>
+      </section>
+
+      <section class="section" aria-label="Additional Context Optional">
+        <h2>Additional Context (Optional)</h2>
+        <p>If deeper context is required, a private reflective conversation record is available below.</p>
+        <div class="link-row">
+          <a class="btn" href="Handling%20sensitive%20cases.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+          <a class="btn secondary" href="Handling%20sensitive%20cases.pdf" download>Download</a>
+        </div>
+        <p class="note">This link is optional and not required to be reviewed.</p>
+      </section>
+
+      <section class="section" aria-label="Closing Note">
+        <h2>Closing note</h2>
+        <p>
+          I’m willing to discuss this directly at your convenience. My preference is to receive guidance and move toward
+          a calm,
+          practical resolution.
+        </p>
+      </section>
+
+      <footer>
+        Private static page for document sharing. No tracking, analytics, cookies, or sign-in.
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
